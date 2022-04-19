@@ -1,5 +1,5 @@
 const clientId = '788bac81f5964bdaa3147c3e1a5e7af1'
-const redirectUri = "http://localhost:3000/"
+const redirectUri = "https://brandonjammming.surge.sh"
 
 let accessToken;
 
