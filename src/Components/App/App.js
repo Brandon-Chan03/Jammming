@@ -60,6 +60,7 @@ class App extends React.Component {
 
   componentDidMount() {
     Spotify.getAccessToken();
+    console.log(typeof (Spotify.getUserPlaylist()))
   }
 
   render() {
@@ -80,3 +81,5 @@ class App extends React.Component {
 }
 
 export default App;
+
+
